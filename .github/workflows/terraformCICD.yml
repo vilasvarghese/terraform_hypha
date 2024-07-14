@@ -3,9 +3,10 @@
 name: Terraform CI/CD
 
 on:
-  push:
-    branches:
-      - main  # Or your desired deployment branch
+  workflow_dispatch:
+#  push:
+#    branches:
+#      - main  # Or your desired deployment branch
 
 permissions:
   id-token: write
